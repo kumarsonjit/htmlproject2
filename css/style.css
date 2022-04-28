@@ -1,0 +1,210 @@
+/*common start*/
+margin:0;
+padding:0;
+font-family:'Playfair Display',serif;
+font-size:16px;
+font-weight:400;
+color:#626262;
+/*common end*/
+
+/* header start */
+header{
+margin:50px 0;
+background:green;
+}
+
+.container{
+width:90%;
+margin:0 auto;
+overflow:hidden;
+padding: 20px 0;
+}
+.logo{
+margin-top:10px;
+width:12%;
+float:left;
+}
+.logo img{
+width:100%;
+}
+.menu{
+width:65%;
+float:right;
+}
+.menu ul{
+float:right;
+}
+.menu ul li{
+list-style:none;
+float:left;
+}
+.menu ul li a{
+color:#626262;
+text-transform:uppercase;
+text-decoration:none;
+margin:0 50px;
+padding:4px 1px 1px;
+display:inline-block;
+border-bottom:1px solid transparent;
+transition:.3s;
+}
+.menu ul li:last-child a{
+margin-right:0;
+}
+.menu ul li a:hover{
+border-bottom:1px solid #626262;
+}
+
+/* header end */
+/*banner start */
+.banner{
+
+}
+.b_img{
+
+}
+
+.b_img img{
+  width:100%;
+}
+
+/*banner end*/
+/*success start */
+.perfect{
+padding:100px 0;
+}
+.container2{
+overflow:hidden;
+width:80%;
+margin:0 auto;
+}
+.p_content{
+
+}
+.c_light{
+font-family:'Ubunto',sans-serif;
+font-size:16px;
+font-weight:300;
+text-transform:uppercase;
+color:#b4ad9e;
+margin:0;
+}
+.c_h1{
+  font-size:30px;
+  font-weight:400;
+  color:#626262;
+  margin-top:20px;
+  margin-bottom:30px;
+
+}
+.c_text{
+  line-height:25px;
+  margin:0;
+  font-family:'Playfair Display',serif;
+  font-size:16px;
+  font-weight:400;
+  color:#626262;
+}
+.extra{
+  margin-bottom:40px;
+}
+
+/*success end*/
+/*success start */
+.blog{
+padding-top:10px;
+padding-bottom:100px;
+}
+.blogs{
+
+}
+.single1{
+width:47%;
+float:left;
+padding-top:70px;
+}
+.single1:nth-child(even){
+  margin-left:5%;
+}
+.s_image{
+margin-bottom:25px;
+}
+.s_image img{
+width:100%;
+}
+
+/*success end*/
+/*contact start */
+.contact{
+background:#f0f0f0;
+padding-top:100px;
+padding-bottom:100px;
+}
+
+.content{
+text-align:center;
+}
+.content h2{
+padding-bottom:40px;
+font-family:'Playfair Display',serif;
+font-size:30px;
+color:#626262;
+}
+.content input{
+  padding:10px 40px;
+}
+.content button{
+  padding:10px 40px;
+}
+/*contact end*/
+/*contact start */
+.loadmore{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.buttonnew button{
+  padding:12px 20px;
+}
+/*contact end*/
+footer{
+  margin-top:90px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#f0f0f0;
+}
+.f_content{
+
+}
+.f_content ul{
+  list-style:none;
+
+}
+.f_content ul li{
+float:left;
+padding:0 15px;
+
+}
+.f_content ul li a{
+  text-transform:uppercase;
+  text-decoration:none;
+  display:inline-block;
+}
+.f_left{
+width:45%;
+float:left;
+}
+.f_left a{
+color:black;
+}
+.f_right{
+width:45%;
+float:right;
+}
+.f_right ul{
+float:right;
+}
+
+.f_right svg{
+  width:10px;
+
+}
